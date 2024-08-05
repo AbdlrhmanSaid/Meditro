@@ -26,7 +26,7 @@ const Booking = () => {
         </p>
       </div>
       <div className="parentDiv bookingForm endBackground  p-3">
-        <div className="form m-auto" style={{ background: "#eee" }}>
+        <div className="form fonmBooking m-auto" style={{ background: "#eee" }}>
           <h2 className="mb-3">Book Appointment</h2>
           <Form>
             <Form.Select aria-label="Default select example" className="mb-5">

@@ -48,7 +48,7 @@ const Contact = () => {
       </Container>
       <div className="contactUs endBackground p-3">
         <Container>
-          <div className="contactBox d-flex justify-content-center bg-white p-5 mb-3 shadow rounded gap-3">
+          <div className="contactBox d-flex justify-content-center bg-white p-3  mb-3 shadow rounded gap-3">
             <div className="contactForm ">
               <FloatingLabel label="Your Name" className="mb-3">
                 <Form.Control type="text" placeholder="Your Name" />

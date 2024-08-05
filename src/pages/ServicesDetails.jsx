@@ -47,7 +47,7 @@ const ServicesDetails = () => {
       </Container>
       <div className="details endBackground">
         <Container className="text-center py-5">
-          <Image src={imageW} rounded className="m-auto" />
+          <Image src={imageW} rounded className="m-auto w-100" />
           <h2 className="title my-4">Why Medical Had Been So Popular Till</h2>
           <p className="paragraph">
             Lorem Ipsum is simply dummy text of the printing and typesetting

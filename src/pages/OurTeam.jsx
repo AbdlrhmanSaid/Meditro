@@ -28,7 +28,7 @@ const OurTeam = () => {
           <Container className="my-3">
             <div className="news-content text-center">
               <div className="cards d-flex gap-3">
-                <Row className="gy-4 ">
+                <Row className="gy-4 py-3 ">
                   <Col md={4} sm={6}>
                     <Card
                       className="shadow"

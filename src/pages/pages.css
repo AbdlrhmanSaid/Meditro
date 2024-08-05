@@ -8,6 +8,9 @@
 .endBackground {
   background: linear-gradient(to bottom, #f7f7ff, white);
 }
+.container {
+  overflow: hidden;
+}
 .title {
   color: #1f2278;
   font-weight: 700;
@@ -280,15 +283,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
   /* about */
   /* contact */
+
   .contactBox {
     flex-direction: column;
   }
   .contactForm {
     width: 100% !important;
   }
+
   /* contact */
 }
 
@@ -299,8 +305,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
   /* about */
+  /* contact */
   .contactBox {
     flex-direction: column;
   }
@@ -317,6 +325,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
   /* about */
   .contactBox {

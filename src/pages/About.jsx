@@ -162,7 +162,7 @@ const About = () => {
               <h2>Our Doctors</h2>
               <h1>Meet Best Doctors</h1>
             </div>
-            <div className="cards d-flex gap-3">
+            <div className="cards p-3 d-flex gap-3">
               <Card
                 className="shadow"
                 style={{ width: "18rem", padding: "20px", border: "none" }}

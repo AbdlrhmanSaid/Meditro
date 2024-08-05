@@ -105,12 +105,15 @@
     flex-direction: column;
   }
   .box {
-    width: 100%;
+    width: 100% !important;
     margin: 20px 0;
   }
 
   .box.top {
     transform: translateY(0);
+  }
+  .parent .box .boxFooter button {
+    font-size: 19px;
   }
 }
 
