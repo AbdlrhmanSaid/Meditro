@@ -1,0 +1,107 @@
+.slider {
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mySwiper {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background-color: #eee;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.swiper-slide .head {
+  background-image: url("../../../assets/bgSec1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head h2 {
+  color: #5559cc;
+}
+
+.body {
+  padding: 10px;
+}
+
+.body h1 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #5559cc;
+  font-size: 25px;
+
+  font-weight: 700;
+}
+
+.body p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.text h2 {
+  background: #f1773245;
+  width: fit-content;
+  color: #f17732;
+  padding: 5px;
+  margin: auto;
+}
+.text button {
+  color: white;
+  border-radius: 10px;
+}
+
+.shape4 {
+  bottom: -60px;
+}
+
+.slider .swiper-button-prev,
+.slider .swiper-button-next {
+  display: none;
+}
+
+@media (max-width: 575.98px) {
+  .main {
+    display: block;
+  }
+  .slider {
+    width: 90% !important;
+  }
+}
+
+/* الشاشات المتوسطة (الأجهزة اللوحية الصغيرة) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .main {
+    display: block;
+  }
+  .slider {
+    width: 90% !important;
+  }
+}
+
+/* الشاشات الكبيرة (الأجهزة اللوحية الكبيرة) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .main {
+    display: block;
+  }
+  .slider {
+    width: 90% !important;
+  }
+}

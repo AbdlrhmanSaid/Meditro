@@ -1,0 +1,50 @@
+.parentDiv {
+  background-color: #eee;
+  border-radius: 20px;
+}
+
+.parentDiv h2 {
+  color: #3a3d88;
+  font-weight: 700;
+}
+.form {
+  width: 360px;
+  background: white;
+  padding: 18px;
+  border-radius: 20px;
+}
+.parentDiv .imags .imgTwo {
+  position: absolute;
+  right: -10px;
+  bottom: 0;
+  height: 90%;
+}
+
+@media (max-width: 575.98px) {
+  .parentDiv {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* الشاشات المتوسطة (الأجهزة اللوحية الصغيرة) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .parentDiv {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* الشاشات الكبيرة (الأجهزة اللوحية الكبيرة) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .parentDiv {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+}

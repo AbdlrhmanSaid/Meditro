@@ -1,0 +1,145 @@
+.parent .head h2 {
+  background-color: #f1783236;
+  color: #f17732;
+  width: fit-content;
+  font-size: 22px;
+  padding: 3px;
+  font-weight: 700;
+  margin: auto;
+}
+.parent .head h1 {
+  width: fit-content;
+  color: #1f2278;
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: 700;
+  margin: auto;
+}
+.parent .box {
+  width: calc(100% / 3);
+  padding: 30px 20px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.parent .box .head {
+  text-align: center;
+}
+.parent .box .head h1 {
+  font-size: 120px;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: 2px #f17732;
+  text-shadow: -2px 6px #f1783236;
+}
+.parent .box .boxBody h4 {
+  color: #f17732;
+  font-weight: 700;
+  font-size: 30px;
+}
+.parent .box .boxBody p {
+  word-spacing: 2px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.parent .box .boxFooter button {
+  background-color: #e4e5f7;
+  border: none;
+  color: #565acf;
+  width: 70%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+  z-index: 1000;
+}
+.parent .box .boxFooter button span {
+  padding: 5px;
+  margin: 0 10px;
+}
+.parent .box .boxFooter svg {
+  padding: 5px;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+.parent .box.top {
+  background-color: #f178321e;
+  position: relative;
+  transform: translateY(-13px);
+}
+
+.shape {
+  position: absolute;
+}
+.parent .shapeOne {
+  top: -50px;
+  right: 30px;
+  animation: moveUpDown 2s infinite;
+}
+
+.shapeTwo {
+  bottom: -40px;
+  left: 190px;
+  animation: moveUpDown 2s infinite;
+}
+
+.shapeThree {
+  top: 0;
+  left: 50px;
+  animation: moveUpDown 2s infinite;
+}
+.shapeFour {
+  bottom: -62px;
+  right: 50px;
+  animation: moveUpDown 2s infinite;
+}
+
+@media (max-width: 575.98px) {
+  .boxs {
+    flex-direction: column;
+  }
+  .box {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .box.top {
+    transform: translateY(0);
+  }
+}
+
+/* الشاشات المتوسطة (الأجهزة اللوحية الصغيرة) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .boxs {
+    flex-direction: column;
+  }
+  .box {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .box.top {
+    transform: translateY(0);
+  }
+}
+
+/* الشاشات الكبيرة (الأجهزة اللوحية الكبيرة) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .boxs {
+    flex-direction: column;
+  }
+  .box {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .box.top {
+    transform: translateY(0);
+  }
+}

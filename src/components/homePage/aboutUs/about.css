@@ -1,0 +1,175 @@
+.aboutUs {
+  justify-content: center;
+  align-items: center;
+}
+.images img,
+.images h2 {
+  width: 38%;
+  margin: 10px;
+}
+.imgOne {
+  border-radius: 50px 0 0 0;
+}
+.imgTwo {
+  border-radius: 0 50px 0 0;
+}
+.imgThree {
+  border-radius: 0 0 0 50px;
+}
+.imgFour {
+  border-radius: 0 0 50px 0;
+}
+
+.images h2 {
+  text-align: center;
+  background-color: #565acf4f;
+  color: #1f2278;
+}
+.images h2 p {
+  color: #565acf;
+  font-size: 100px;
+  font-weight: 800;
+  margin: 10px;
+}
+
+.info {
+  width: 50%;
+}
+
+.info h3 {
+  color: #f17a36;
+  background: #f17a3647;
+  width: fit-content;
+  font-size: 21px;
+  font-weight: 700;
+  margin: auto;
+  padding: 10px;
+}
+.info h1 {
+  color: #1f2278;
+  font-weight: bolder;
+}
+.info p {
+  font-size: 18px;
+}
+.info .btminfo {
+  margin: 10px 0;
+}
+
+.info .btminfo .top,
+.info .btminfo .btm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 10px;
+  font-weight: 600;
+  color: #1f2278;
+  box-shadow: #1f22781c 0px 0px 12px;
+}
+
+.info-box svg {
+  margin: 0 10px;
+  color: #f17a36;
+}
+
+.info button {
+  background-color: #1f2278c7 !important;
+  border: none !important;
+  box-shadow: #1f22781c 0px 0px 12px;
+  padding: 15px 30px;
+}
+
+.shape {
+  position: absolute;
+}
+.aboutUs .shapeOne {
+  position: absolute;
+  top: 3%;
+  right: 30px;
+  animation: moveUpDown 2s infinite;
+}
+
+.aboutUs .shapeTwo {
+  position: absolute;
+  animation: moveUpDown 2s infinite;
+  right: 5px;
+  bottom: -70px;
+}
+
+.aboutUs .shape4 {
+  top: -50px;
+  animation: moveUpDown 2s infinite;
+  left: 50px;
+}
+
+@media (max-width: 575.98px) {
+  .aboutUs {
+    flex-direction: column;
+  }
+  .images img,
+  .images h2 {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+  }
+  .images h2 p {
+    font-size: 35px;
+  }
+  .info {
+    width: 100% !important;
+    text-align: center;
+    margin: 12px 0;
+  }
+}
+
+/* الشاشات المتوسطة (الأجهزة اللوحية الصغيرة) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .aboutUs {
+    flex-direction: column;
+  }
+  .images img,
+  .images h2 {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+  }
+  .images h2 p {
+    font-size: 35px;
+  }
+  .info {
+    width: 100% !important;
+    text-align: center;
+    margin: 12px 0;
+  }
+}
+
+/* الشاشات الكبيرة (الأجهزة اللوحية الكبيرة) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .aboutUs {
+    flex-direction: column;
+  }
+  .images img,
+  .images h2 {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+  }
+  .images h2 p {
+    font-size: 35px;
+  }
+  .info {
+    width: 100% !important;
+    text-align: center;
+    margin: 12px 0;
+  }
+}
